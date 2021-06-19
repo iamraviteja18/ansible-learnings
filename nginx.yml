@@ -2,5 +2,5 @@
 - hosts: localhost
   become: yes
   tasks:
-  - name: install nginix
+  - name: install nginx
     apt: name=nginix state=present update_cache=yes
