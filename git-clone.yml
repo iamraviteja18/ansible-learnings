@@ -4,6 +4,6 @@
   tasks:
   - name:
     ansible.builtin.file:
-      path: /etc/some_directory
+      path: /trail/through_ansible
       state: directory
       mode: '0755'
