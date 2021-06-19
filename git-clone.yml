@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Example clone of a single branch
+    ansible.builtin.git:
+    repo: https://github.com/iamraviteja18/ansible-learnings.git
+    dest: /src/ansible-examples
+    single_branch: yes
+    version: main
