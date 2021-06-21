@@ -1,0 +1,9 @@
+---
+- hosts: all
+  roles:
+    - andrewrothstein.maven
+    - jetune.gradle
+    - remyma.springboot
+    - andrewrothstein.openjdk
+    - andrewrothstein.alpine-glibc-shim
+    - andrewrothstein.unarchive-deps
